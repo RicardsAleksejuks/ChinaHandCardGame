@@ -1,0 +1,20 @@
+﻿  Card.cpp
+  Deck.cpp
+C:\Users\ricards\source\repos\CardGameC\CardGameC\Card.cpp(20,45): warning C4101: e: неиспользованная локальная переменная
+C:\Users\ricards\source\repos\CardGameC\CardGameC\Card.cpp(40,24): error C2079: "oss" использует не имеющую определения структуру class "std::basic_ostringstream<char,std::char_traits<char>,std::allocator<char>>"
+C:\Users\ricards\source\repos\CardGameC\CardGameC\Card.cpp(41,5): error C2678: бинарный "<<": не найден оператор, принимающий левый операнд типа "int" (или приемлемое преобразование отсутствует)
+      C:\Users\ricards\source\repos\CardGameC\CardGameC\Card.hpp(30,26):
+      может быть "std::ostream &operator <<(std::ostream &,const Card &)" [найдено при поиске с зависимостью от аргументов]
+          C:\Users\ricards\source\repos\CardGameC\CardGameC\Card.cpp(41,5):
+          "std::ostream &operator <<(std::ostream &,const Card &)": невозможно преобразовать аргумент 1 из "int" в "std::ostream &"
+      C:\Users\ricards\source\repos\CardGameC\CardGameC\Card.cpp(41,5):
+      при попытке сопоставить список аргументов "(int, const Card)"
+  
+C:\Users\ricards\source\repos\CardGameC\CardGameC\Deck.cpp(37,22): warning C4267: return: преобразование из "size_t" в "int"; возможна потеря данных
+  Game.cpp
+C:\Users\ricards\source\repos\CardGameC\CardGameC\Game.cpp(199,45): warning C4101: e: неиспользованная локальная переменная
+C:\Users\ricards\source\repos\CardGameC\CardGameC\Game.cpp(221,34): error C2001: newline в константе
+C:\Users\ricards\source\repos\CardGameC\CardGameC\Game.cpp(217,19): error C1075: "{": не найдена несоответствующая лексема
+  Player.cpp
+C:\Users\ricards\source\repos\CardGameC\CardGameC\Player.cpp(81,21): warning C4267: return: преобразование из "size_t" в "int"; возможна потеря данных
+  main.cpp
